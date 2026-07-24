@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 //= Scripts
 import loadBackgroudImages from '@/common/loadBackgroudImages';
+import Marq from '@/components/CreativeAgency/Marq';
 
 function Header({ lightMode }) {
   useEffect(() => {
@@ -8,11 +9,12 @@ function Header({ lightMode }) {
   }, []);
 
   return (
-    <header className="header-creative fullBannerHero" 
+    <header className="header-creative  fullBannerHero full-height" 
     // style={{backgroundImage: `url(../${lightMode ? 'light' : 'dark'}/assets/imgs/header/banner-bg.png)`}}
     >
-      <div className="container ontop">
-        <div className="row justify-content-center full-height " >
+    <div className="wrapperHeader">
+  <div className="container ontop">
+        <div className="row justify-content-center  valign" >
           <div className="col-lg-5 ">
             <div className="caption text-left full-width md-mb50">
               <div className="mb-30">
@@ -69,10 +71,13 @@ function Header({ lightMode }) {
             </div>
           </div>
         </div>
-      <br></br>
-      <br></br>
+         
       </div>
-      <div className="bg-pattern bg-img" data-background={`/${lightMode ? 'light' : 'dark'}/assets/imgs/patterns/graph.png`}></div>
+       <Marq />
+      <div className="bg-pattern bg-img" data-background={`/dark/assets/imgs/header/banner-bg.png`}></div>
+
+      </div>
+
     </header>
   )
 }
