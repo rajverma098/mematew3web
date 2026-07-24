@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 //= Scripts
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 import Marq from '@/components/CreativeAgency/Marq';
+import AnimatedImage from './AnimatedImage';
 
 function Header({ lightMode }) {
   useEffect(() => {
@@ -21,17 +22,17 @@ function Header({ lightMode }) {
                 <svg className="svg-animation star" width="100" height="100" viewBox="0 0 100 100"
                   fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                   <line y1="50" x2="100" y2="50" vectorEffect="non-scaling-stroke"
-                    stroke="currentColor" style={{ "--index": 1, "--transform": '30deg' }}></line>
+                    stroke="#13acfe" style={{ "--index": 1, "--transform": '30deg' }}></line>
                   <line y1="50" x2="100" y2="50" vectorEffect="non-scaling-stroke"
-                    stroke="currentColor" style={{ "--index": 2, "--transform": '60deg' }}></line>
+                    stroke="#13acfe" style={{ "--index": 2, "--transform": '60deg' }}></line>
                   <line y1="50" x2="100" y2="50" vectorEffect="non-scaling-stroke"
-                    stroke="currentColor" style={{ "--index": 3, "--transform": '90deg' }}></line>
+                    stroke="#13acfe" style={{ "--index": 3, "--transform": '90deg' }}></line>
                   <line y1="50" x2="100" y2="50" vectorEffect="non-scaling-stroke"
-                    stroke="currentColor" style={{ "--index": 4, "--transform": '120deg' }}></line>
+                    stroke="#13acfe" style={{ "--index": 4, "--transform": '120deg' }}></line>
                   <line y1="50" x2="100" y2="50" vectorEffect="non-scaling-stroke"
-                    stroke="currentColor" style={{ "--index": 5, "--transform": '150deg' }}></line>
+                    stroke="#13acfe" style={{ "--index": 5, "--transform": '150deg' }}></line>
                   <line y1="50" x2="100" y2="50" vectorEffect="non-scaling-stroke"
-                    stroke="currentColor" style={{ "--index": 6, "--transform": '180deg' }}></line>
+                    stroke="#13acfe" style={{ "--index": 6, "--transform": '180deg' }}></line>
                 </svg>
               </div>
               <h1 className="fw-600 d-rotate wow">
@@ -53,28 +54,33 @@ function Header({ lightMode }) {
                         </path>
                       </defs>
                       <text>
-                        <textPath xlinkHref="#textcircle1" textLength="900">Creative - Agency - Winner -</textPath>
+                        <textPath xlinkHref="#textcircle1" textLength="900">Experience - Experience - Experience -</textPath>
                       </text>
                     </svg>
                   </div>
                   <div className="in-circle text-center">
-                    <h3>A <span className="fw-300 fz-30">+</span></h3>
+                    <h3>15 <span className="fw-300 fz-30">+</span></h3>
                   </div>
                 </div>
               </div>
               <div className="text-center">
-                <h6>500k <span className="fz-14">Customers</span></h6>
+                <h6>5k+ <span className="fz-14">Customers</span></h6>
                 <p className="fz-13">Avg rating 4.8 makes us world best.</p>
               </div>
             </div>
-              <img src="/dark/assets/imgs/header/banner-img.png" alt="" />
+            {/* <AnimatedImage /> */}
             </div>
           </div>
         </div>
          
       </div>
        <Marq />
-      <div className="bg-pattern bg-img" data-background={`/dark/assets/imgs/header/banner-bg.png`}></div>
+    
+  <video autoPlay muted loop playsInline>
+    <source src="/dark/assets/imgs/header/herobannervideo.mp4" type="video/mp4" />
+  </video>
+
+      {/* <div className="bg-pattern bg-img" data-background={`/dark/assets/imgs/header/banner-bg.png`}></div> */}
 
       </div>
 
