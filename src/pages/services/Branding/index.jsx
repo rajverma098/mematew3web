@@ -8,7 +8,7 @@ import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Preview/Navbar';
 import Header from '@/components/Branding/Header';
 import Services from '@/components/Branding/About/Services';
-import Portfolio from '@/components/Branding/Services/Portfolio';
+// import Portfolio from '@/components/Branding/Services/Portfolio';
 import ServicesTab from '@/components/DigitalAgency/ServicesTab';
 import FAQ from '@/components/Branding/Services/FAQ';
 import CallToAction from '@/components/Startup/CallToAction';
@@ -38,7 +38,7 @@ const Branding = () => {
       <main>
         <Header data={headerMetadata} subBg={true} />
         <Services />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <ServicesTab />
         <FAQ />
         <CallToAction innerPageStyle />
