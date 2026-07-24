@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/portfolio/gallery/img-mobile-app.jpg",
+    "title": "01. Strategy & Planning",
+    "mainHeading": "Smart App Foundations",
+    "text": " We create strong app strategies by understanding your business goals, users, and market trends to ensure your mobile application is built for success.",
+    "listItem1": "Turn your idea into a clear roadmap",
+    "listItem2": "Define features that solve real problems",
+    "listItem3": "Build a solid foundation for scalable growth"
+
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/portfolio/gallery/Enterprise-Software-Development.jpg",
+    "title": "02. Development & Integration",
+    "mainHeading":"High-Performance App Solutions",
+    "text": " We develop secure, fast, and scalable mobile applications using modern technologies, ensuring smooth performance across all devices and seamless integration with essential tools",
+    "listItem1": "Build powerful and reliable applications",
+    "listItem2": "Ensure seamless system integrations",
+    "listItem3": "Deliver performance-driven solutions"
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/portfolio/gallery/Software-Product-Development-Engineering.jpg",
+    "title": "03. UI/UX Design",
+    "mainHeading":"Engaging User Experiences",
+    "text": "We design intuitive and visually appealing interfaces that enhance usability and keep users engaged, ensuring your app delivers a smooth and meaningful experience.",
+    "listItem1": "Create user-friendly app interfaces",
+    "listItem2": "Improve engagement and retention",
+    "listItem3": "Design experiences users enjoy"
+  }
+]

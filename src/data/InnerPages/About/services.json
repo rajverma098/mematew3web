@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/0.png",
+    "title": "User-Centric Design That Enhances Engagement",
+    "text": "Every interface is crafted based on user behavior insights, ensuring intuitive navigation, smooth interactions, and engaging experiences that encourage retention and long-term satisfaction."
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/1.png",
+    "title": "Data-Driven Design with Modern Tools and Techniques",
+    "text": "Our design process uses research, analytics, and modern tools to create visually appealing interfaces that perform consistently across platforms and devices."
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/serv-icons/2.png",
+    "title": "Scalable UI UX Solutions for Long-Term Growth",
+    "text": "Designs are built to adapt and evolve with your business, ensuring flexibility, easy updates, and consistent performance as user needs and technologies change."
+  }
+]

@@ -1,0 +1,45 @@
+import React from 'react';
+//= Components
+import StatementSplitter from '@/components/Common/StatementSplitter';
+//= Data
+import data from '@/data/InnerPages/About/mobileServices.json';
+
+function Services({ lightMode }) {
+  return (
+    <section className="serv-box section-padding">
+      <div className="container">
+        <div className="sec-lg-head mb-80">
+          <div className="row">
+            <div className="col-lg-8">
+              <div className="position-re">
+                <h2 className="fz-60 fw-700">Why Choose W3 Web Technologies for Mobile App Development</h2>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex align-items-center">
+              <div className="text">
+                <p>W3 Web Technologies delivers mobile app solutions focused on performance, scalability, and user experience. With a strong development process and modern technologies, every project is built to meet real business goals. The team ensures seamless execution from planning to launch, helping businesses create reliable, high-quality apps that drive growth and long-term success.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          {
+            data.map(item => (
+              <div className="col-lg-4 mt-30" key={item.id}>
+                <div className="serv-item md-mb50 radius-10">
+                  <div className="icon-img-60 mb-40">
+                    <img src={`/${lightMode ? 'light' : 'dark'}/${item.image}`} alt="" />
+                  </div>
+                  <h5 className="mb-30 pb-30 bord-thin-bottom"><StatementSplitter statement={item.title} /></h5>
+                  <p>{item.text}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Services

@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/portfolio/gallery/img-mobile-app.jpg",
+    "title": "01. Research & User Insights",
+    "mainHeading": "Data-Backed Design Decisions",
+    "text": "We conduct in-depth user research and behavior analysis to understand your audience, ensuring every design decision is aligned with real user needs and expectations.",
+    "listItem1": "Understand user behavior and preferences",
+    "listItem2": "Identify pain points and opportunities",
+    "listItem3": "Create designs based on real insights"
+
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/portfolio/gallery/Enterprise-Software-Development.jpg",
+    "title": "02. Prototyping & Testing",
+    "mainHeading":"Validate Before You Build",
+    "text": "We create interactive prototypes and perform usability testing to refine ideas early, ensuring your product delivers a smooth and error-free user experience before final development.",
+    "listItem1": "Test ideas with real user feedback",
+    "listItem2": "Improve usability and functionality",
+    "listItem3": "Reduce risks and costly revisions"
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/portfolio/gallery/Software-Product-Development-Engineering.jpg",
+    "title": "03. Conversion-Focused Design",
+    "mainHeading":"Design That Drives Results",
+    "text": "We focus on creating interfaces that not only look great but also guide users toward action, improving engagement, conversions, and overall business performance.",
+    "listItem1": "Optimize user journeys for conversions",
+    "listItem2": "Improve call-to-action effectiveness",
+    "listItem3": "Turn visitors into loyal customers"
+  }
+]
