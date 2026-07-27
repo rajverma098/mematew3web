@@ -49,11 +49,11 @@ function Header({ lightMode }) {
        {/* <Marq /> */}
       
     
-  {/* <video autoPlay muted loop playsInline>
+  <video autoPlay muted loop playsInline>
     <source src="/dark/assets/imgs/header/herobannervideo.mp4" type="video/mp4" />
-  </video> */}
+  </video>
 
-      <div className="bg-pattern bg-img" data-background={`/dark/assets/imgs/header/banner-bg.png`}></div> 
+      {/* <div className="bg-pattern bg-img" data-background={`/dark/assets/imgs/header/banner-bg.png`}></div>  */}
 
       </div>
       
