@@ -6,8 +6,8 @@ import Layout from '@/layouts/default';
 //= Components
 import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Preview/Navbar';
-import Header from '@/components/CreativeAgency/Header';
-// import Marq from '@/components/CreativeAgency/Marq';
+import Header from '@/components/CreativeAgency/Header';    
+ import Marq from '@/components/CreativeAgency/Marq';
 import Intro from '@/components/CreativeAgency/Intro';
 import SectionImage from '@/components/CreativeAgency/SectionImage';
 import Services from '@/components/CreativeAgency/Services';
@@ -33,7 +33,7 @@ function HomeCreativeAgency() {
       <Navbar mainBg />
       <main className="main-bg position-re">
         <Header />
-        {/* <Marq /> */}
+        <Marq /> 
         <Intro />
         <ServicesNew />
         <SectionImage />
