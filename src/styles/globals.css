@@ -26,13 +26,13 @@ figure.table td {
     padding: 0 80px;
 }
 header.full-height {
-    min-height: calc(100vh - 90px) !important;
-    padding: 100px 0 56px !important;
+    /* min-height: calc(100vh - 90px) !important;
+    padding: 100px 0 56px !important; */
     margin-top: -75px;
 }
 .experienceBox {
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
     z-index: 1;
 }
@@ -135,7 +135,7 @@ header.full-height {
 .fullBannerHero:before {
     position: absolute;
     content: "";
-    background: #000000d0;
+    background: #000000b4;
     width: 100%;
     height: 100%;
     top: 0;
@@ -146,13 +146,14 @@ header.full-height {
 }
 .fullBannerHero  video {
   position: absolute;
-  top: 25%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+   top: 0%;
+  left: 0;
+   min-width: 100%;
+  min-height: 100%; 
+  height: 100vh;
   width: auto;
   height: auto;
-  transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%); 
   object-fit: cover;
 }
 .drop-cap::first-letter {

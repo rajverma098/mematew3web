@@ -17,6 +17,7 @@ import HzScroll from '@/components/CreativeAgency/HorizontalScroll';
 import Blog from '@/components/CreativeAgency/Blog';
 import Footer from '@/components/CreativeAgency/Footer';
 import ServicesNew from '@/components/CreativeAgency/ServicesNew';
+import FloatingChat from '@/components/CreativeAgency/FloatingChat';
 
 function HomeCreativeAgency() {
   useEffect(() => {
@@ -42,8 +43,10 @@ function HomeCreativeAgency() {
         <Testimonials />
         <HzScroll />
         <Blog />
+             <FloatingChat />
       </main>
       <Footer />
+  
     </>
   )
 }

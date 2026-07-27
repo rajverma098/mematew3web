@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import data from '@/data/app-data.json';
 import Link from 'next/link';
 
+
 function Footer({ lightMode }) {
   useEffect(() => {
     if (window.innerWidth > 991) {
@@ -30,6 +31,7 @@ function Footer({ lightMode }) {
                   <h6>Address</h6>
                 </div>
                 <div className="text">
+                 
                   <p>4th Floor, F388, Charu Tower, Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar, Punjab 160055</p>
                 </div>
               </div>
@@ -85,6 +87,7 @@ function Footer({ lightMode }) {
             </div>
           </div>
         </div>
+        
         <div className="sub-footer pt-40 pb-40 bord-thin-top ontop">
           <div className="container">
             <div className="row">
@@ -106,6 +109,10 @@ function Footer({ lightMode }) {
           </div>
         </div>
       </div>
+
+
+
+      
     </footer>
   )
 }
