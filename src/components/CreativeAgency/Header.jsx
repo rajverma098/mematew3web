@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 //= Scripts
 import loadBackgroudImages from '@/common/loadBackgroudImages';
-import Marq from '@/components/CreativeAgency/Marq';
-import AnimatedImage from './AnimatedImage';
+import CounterSection from './CounterSection';
 
 function Header({ lightMode }) {
   useEffect(() => {
@@ -42,7 +41,23 @@ function Header({ lightMode }) {
             </div>
           </div>
            <div className="col-lg-12">
-            <div className="img parallax" data-speed="0.01">
+         
+          </div> 
+        </div>
+          <CounterSection />
+      </div>
+       {/* <Marq /> */}
+      
+    
+  {/* <video autoPlay muted loop playsInline>
+    <source src="/dark/assets/imgs/header/herobannervideo.mp4" type="video/mp4" />
+  </video> */}
+
+      <div className="bg-pattern bg-img" data-background={`/dark/assets/imgs/header/banner-bg.png`}></div> 
+
+      </div>
+      
+   <div className="experienceBox" data-speed="0.01">
                <div className="mt-0 md-hide bannerReview">
               <div className="text-center hover-this">
                 <div className="circle-button hover-anim">
@@ -63,27 +78,8 @@ function Header({ lightMode }) {
                   </div>
                 </div>
               </div>
-              <div className="text-center">
-                <h6>5k+ <span className="fz-14">Customers</span></h6>
-                <p className="fz-13">Avg rating 4.8 makes us world best.</p>
-              </div>
             </div>
-        
             </div>
-          </div> 
-        </div>
-         
-      </div>
-       {/* <Marq /> */}
-    
-  {/* <video autoPlay muted loop playsInline>
-    <source src="/dark/assets/imgs/header/herobannervideo.mp4" type="video/mp4" />
-  </video> */}
-
-      <div className="bg-pattern bg-img" data-background={`/dark/assets/imgs/header/banner-bg.png`}></div> 
-
-      </div>
-
     </header>
   )
 }
