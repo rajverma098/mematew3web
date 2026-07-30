@@ -1,7 +1,7 @@
 .wrapper {
-     position: fixed;
-    right: 25px;
-    bottom: 87px;
+   position: fixed;
+    right: 24px;
+    bottom: 20px;
     z-index: 9999;
     width: 350px;
 }
@@ -67,9 +67,13 @@ width: 42px;
   justify-content: flex-end;
   gap: 12px;
   margin-top: 14px;
+  margin-right: 66px;
+}
+.icons  {
+     margin-bottom: -7px;
 }
 
-.whatsapp,
+/* .whatsapp,
 .avatar {
   width: 60px;
   height: 60px;
@@ -81,7 +85,7 @@ width: 42px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
+} */
 
 .whatsapp img,
 .avatar img {

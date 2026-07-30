@@ -6,7 +6,7 @@ import Layout from '@/layouts/default';
 //= Components
 import Loader from '@/components/Common/Loader';
 import Navbar from '@/components/Preview/Navbar';
-import Header from '@/components/CreativeAgency/Header';    
+// import Header from '@/components/CreativeAgency/Header';    
  import Marq from '@/components/CreativeAgency/Marq';
 import Intro from '@/components/CreativeAgency/Intro';
 import SectionImage from '@/components/CreativeAgency/SectionImage';
@@ -18,6 +18,7 @@ import Blog from '@/components/CreativeAgency/Blog';
 import Footer from '@/components/CreativeAgency/Footer';
 import ServicesNew from '@/components/CreativeAgency/ServicesNew';
 import FloatingChat from '@/components/CreativeAgency/FloatingChat';
+import HeroBanner from '@/components/HeroBanner/HeroBanner';
 
 function HomeCreativeAgency() {
   useEffect(() => {
@@ -33,7 +34,8 @@ function HomeCreativeAgency() {
       <Loader />
       <Navbar mainBg />
       <main className="main-bg position-re">
-        <Header />
+        <HeroBanner />
+        {/* <Header /> */}
         <Marq /> 
         <Intro />
         <ServicesNew />
@@ -44,6 +46,7 @@ function HomeCreativeAgency() {
         <HzScroll />
         <Blog />
              <FloatingChat />
+             
       </main>
       <Footer />
   

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/FloatingChat.module.css";
+import WhatsApp from "./WhatsApp";
 
 
 export default function FloatingChat() {
@@ -37,46 +38,26 @@ export default function FloatingChat() {
           target="_blank"
           className={styles.btn}
         >
-          📅 Book a demo
+          📅 Get In Touch
         </Link>
 
         <button className={styles.btn}>
           💬 Chat with us
         </button>
-
-        <Link
-          href="https://app.memate.com.au/onboarding"
-          target="_blank"
-          className={styles.btn}
-        >
-          🏃 Sign up & start a free trial
-        </Link>
       </div>
 
       {/* Bottom Icons */}
       <div className={styles.icons}>
         <a
-          href="https://wa.me/61473580021"
+          href="https://wa.me/9814930250"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.whatsapp}
         >
-          <Image
-            src="/whatsapp.png"
-            alt="Whatsapp"
-            width={34}
-            height={34}
-          />
+            <WhatsApp />
         </a>
 
-        <button className={styles.avatar}>
-          <Image
-            src="/bot.png"
-            alt="AI"
-            width={52}
-            height={52}
-          />
-        </button>
+     
       </div>
     </div>
   );
