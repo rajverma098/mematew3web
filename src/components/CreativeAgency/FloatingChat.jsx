@@ -34,7 +34,7 @@ export default function FloatingChat() {
       {/* Buttons */}
       <div className={styles.buttons}>
         <Link
-          href="https://app.memate.com.au/requestdemo"
+          href="#"
           target="_blank"
           className={styles.btn}
         >
