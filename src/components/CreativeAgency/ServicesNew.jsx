@@ -25,7 +25,7 @@ function ServicesNew({ lightMode }) {
                         fill="currentColor"></path>
                     </svg>
                   </span>
-                  <span className="fz-12 text-u ml-10">Read More</span>
+                  {/* <span className="fz-12 text-u ml-10">Read More</span> */}
                 </Link>
               </div>
             ))

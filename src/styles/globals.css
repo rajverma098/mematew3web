@@ -379,7 +379,7 @@ header.full-height {
     justify-content: center;
 }
 
-.circle {
+.hero-image .circle {
     width: 470px;
     height: 470px;
     background: #a8dbe4;
@@ -451,4 +451,133 @@ header.full-height {
     height:100%;
 }
 
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+.zeroshadowRight {
+    right: 0;
+}
+}
+.bg_slider {
+  position: relative;
+  padding: 0px 0 0;
+}
+
+.ui-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 1200px;
+    margin: auto;
+}
+@media (max-width: 1024px) {
+    .ui-grid {
+        grid-template-columns: repeat(3, 1fr);
+         gap: 24px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .ui-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .ui-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.bg_slider .zeroshadowRight {
+    z-index: 0;
+}
+.ui-col {
+  overflow: hidden;
+  height: 600px;
+}
+.bg_slider .zeroshadowLeft {
+   z-index: 0;
+}
+.slide_track {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Card base */
+.ui-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.12),
+    0 10px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+/* Card sizes */
+.card-sm {
+ height: fit-content;
+}
+
+.card-md {
+  height: fit-content;
+}
+
+.card-lg {
+  height: 420px;
+  height: fit-content;
+}
+.slide_track {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+.ui-card img {
+  width: 100%;
+  height: 100%;
+   height: fit-content;
+}
+.fade {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+.fade-top {
+  position: relative;
+}
+.fade-top:before {
+    content: "";
+    z-index: 99;
+    background: linear-gradient(#262626, #26262600 90%);
+    width: 100%;
+    height: 96px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ .fade-bottom:before {
+    content: "";
+    z-index: 99;
+  background: linear-gradient(to top, #262626 0%, rgba(38, 38, 38, 0.6) 50%, rgba(38, 38, 38, 0) 100%);
+
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 180px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .ui-col:last-child {
+    display: none;
+  }
 }

@@ -9,7 +9,7 @@ import Navbar from '@/components/Preview/Navbar';
 // import Header from '@/components/CreativeAgency/Header';    
  import Marq from '@/components/CreativeAgency/Marq';
 import Intro from '@/components/CreativeAgency/Intro';
-import SectionImage from '@/components/CreativeAgency/SectionImage';
+// import SectionImage from '@/components/CreativeAgency/SectionImage';
 import Services from '@/components/CreativeAgency/Services';
 import Portfolio from '@/components/CreativeAgency/Portfolio';
 import Testimonials from '@/components/CreativeAgency/Testimonials';
@@ -39,7 +39,7 @@ function HomeCreativeAgency() {
         <Marq /> 
         <Intro />
         <ServicesNew />
-        <SectionImage />
+        {/* <SectionImage /> */}
         <Services />
         <Portfolio />
         <Testimonials />

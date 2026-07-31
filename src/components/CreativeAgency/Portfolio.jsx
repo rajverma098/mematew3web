@@ -1,6 +1,7 @@
 import React from 'react';
 //= Data
 import data from '@/data/CreativeAgency/portfolio.json';
+import InfiniteDualSlider from './InfiniteDualSlider';
 
 function Portfolio() {
   return (
@@ -21,12 +22,13 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center">
+         <InfiniteDualSlider />
+        {/* <div className="row justify-content-center">
           <div className="col-lg-5">
             <div className="item md-mb80">
               <div className="o-hidden1">
                 <div className="img imago1 wow">
-                  {/* <img src={data[0].image} alt="" /> */}
+              
                   <img src="/dark/assets/imgs/portfolio/2/memate.jpg" alt=""></img>
                 </div>
               </div>
@@ -107,7 +109,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
